@@ -37,6 +37,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95A363C32C0F89CC00EDA7FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95EBA7AF2C09FCDE00A38F6A /* Main.storyboard */,
+				95EBA7B22C09FCFD00A38F6A /* Assets.xcassets */,
+				95EBA7B42C09FCFD00A38F6A /* LaunchScreen.storyboard */,
+				95EBA7B72C09FCFD00A38F6A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		95EBA79D2C09FCDE00A38F6A = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +70,7 @@
 				95EBA7A92C09FCDE00A38F6A /* AppDelegate.swift */,
 				95EBA7AB2C09FCDE00A38F6A /* SceneDelegate.swift */,
 				95EBA7AD2C09FCDE00A38F6A /* ViewController.swift */,
-				95EBA7AF2C09FCDE00A38F6A /* Main.storyboard */,
-				95EBA7B22C09FCFD00A38F6A /* Assets.xcassets */,
-				95EBA7B42C09FCFD00A38F6A /* LaunchScreen.storyboard */,
-				95EBA7B72C09FCFD00A38F6A /* Info.plist */,
+				95A363C32C0F89CC00EDA7FD /* Resources */,
 			);
 			path = ImageFeed;
 			sourceTree = "<group>";
