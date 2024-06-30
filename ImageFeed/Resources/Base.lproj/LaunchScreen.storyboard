@@ -4,8 +4,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,17 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Vector" highlightedImage="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="rrc-ZO-QvF">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="splash_screen_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fgh-lb-8mh">
+                                <rect key="frame" x="160.33333333333334" y="400.66666666666669" width="72.666666666666657" height="76"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="YP Black "/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="rrc-ZO-QvF" secondAttribute="bottom" id="8Gd-dv-Np6"/>
-                            <constraint firstItem="rrc-ZO-QvF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bOe-vf-kWx"/>
-                            <constraint firstAttribute="trailing" secondItem="rrc-ZO-QvF" secondAttribute="trailing" id="lL3-74-7zo"/>
-                            <constraint firstItem="rrc-ZO-QvF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="n2v-fx-sl1"/>
+                            <constraint firstItem="fgh-lb-8mh" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="nPW-9j-DL0"/>
+                            <constraint firstItem="fgh-lb-8mh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oFb-33-Eix"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,9 +35,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Vector" width="414" height="429"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="splash_screen_logo" width="72.666664123535156" height="75.333335876464844"/>
+        <namedColor name="YP Black ">
+            <color red="0.10196078431372549" green="0.10588235294117647" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
